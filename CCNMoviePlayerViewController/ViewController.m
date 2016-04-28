@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MoviePlayerViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 200, 30)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn setTitle:@"点击看视频" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+}
+
+- (void)btnClick:(UIButton *)btn{
+    MoviePlayerViewController *mp = [[MoviePlayerViewController alloc]init];
+    [self.navigationController pushViewController:mp animated:NO];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -13,6 +13,12 @@
 		5127694C1CD1C77B00FC7D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5127694A1CD1C77B00FC7D5E /* Main.storyboard */; };
 		5127694E1CD1C77B00FC7D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5127694D1CD1C77B00FC7D5E /* Assets.xcassets */; };
 		512769511CD1C77B00FC7D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5127694F1CD1C77B00FC7D5E /* LaunchScreen.storyboard */; };
+		5127695A1CD1C7AC00FC7D5E /* chenyifaer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 512769581CD1C7AC00FC7D5E /* chenyifaer.mp4 */; };
+		5127695B1CD1C7AC00FC7D5E /* progressThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 512769591CD1C7AC00FC7D5E /* progressThumb@2x.png */; };
+		5127695E1CD1C80300FC7D5E /* NavRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5127695D1CD1C80300FC7D5E /* NavRootViewController.m */; };
+		512769601CD1C81900FC7D5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5127695F1CD1C81900FC7D5E /* AVFoundation.framework */; };
+		512769631CD1C87100FC7D5E /* MoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512769621CD1C87100FC7D5E /* MoviePlayerViewController.m */; };
+		512769661CD1C8DA00FC7D5E /* MainScreenMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512769651CD1C8DA00FC7D5E /* MainScreenMoviePlayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,15 @@
 		5127694D1CD1C77B00FC7D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		512769501CD1C77B00FC7D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		512769521CD1C77B00FC7D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512769581CD1C7AC00FC7D5E /* chenyifaer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chenyifaer.mp4; sourceTree = "<group>"; };
+		512769591CD1C7AC00FC7D5E /* progressThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressThumb@2x.png"; sourceTree = "<group>"; };
+		5127695C1CD1C80300FC7D5E /* NavRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavRootViewController.h; sourceTree = "<group>"; };
+		5127695D1CD1C80300FC7D5E /* NavRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavRootViewController.m; sourceTree = "<group>"; };
+		5127695F1CD1C81900FC7D5E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		512769611CD1C87100FC7D5E /* MoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerViewController.h; sourceTree = "<group>"; };
+		512769621CD1C87100FC7D5E /* MoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerViewController.m; sourceTree = "<group>"; };
+		512769641CD1C8DA00FC7D5E /* MainScreenMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenMoviePlayerViewController.h; sourceTree = "<group>"; };
+		512769651CD1C8DA00FC7D5E /* MainScreenMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenMoviePlayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512769601CD1C81900FC7D5E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,9 @@
 		512769351CD1C77B00FC7D5E = {
 			isa = PBXGroup;
 			children = (
+				5127695F1CD1C81900FC7D5E /* AVFoundation.framework */,
+				512769581CD1C7AC00FC7D5E /* chenyifaer.mp4 */,
+				512769591CD1C7AC00FC7D5E /* progressThumb@2x.png */,
 				512769401CD1C77B00FC7D5E /* CCNMoviePlayerViewController */,
 				5127693F1CD1C77B00FC7D5E /* Products */,
 			);
@@ -62,6 +81,12 @@
 				512769451CD1C77B00FC7D5E /* AppDelegate.m */,
 				512769471CD1C77B00FC7D5E /* ViewController.h */,
 				512769481CD1C77B00FC7D5E /* ViewController.m */,
+				5127695C1CD1C80300FC7D5E /* NavRootViewController.h */,
+				5127695D1CD1C80300FC7D5E /* NavRootViewController.m */,
+				512769611CD1C87100FC7D5E /* MoviePlayerViewController.h */,
+				512769621CD1C87100FC7D5E /* MoviePlayerViewController.m */,
+				512769641CD1C8DA00FC7D5E /* MainScreenMoviePlayerViewController.h */,
+				512769651CD1C8DA00FC7D5E /* MainScreenMoviePlayerViewController.m */,
 				5127694A1CD1C77B00FC7D5E /* Main.storyboard */,
 				5127694D1CD1C77B00FC7D5E /* Assets.xcassets */,
 				5127694F1CD1C77B00FC7D5E /* LaunchScreen.storyboard */,
@@ -110,7 +135,6 @@
 				TargetAttributes = {
 					5127693D1CD1C77B00FC7D5E = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 6MB3CE5725;
 					};
 				};
 			};
@@ -138,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				512769511CD1C77B00FC7D5E /* LaunchScreen.storyboard in Resources */,
+				5127695B1CD1C7AC00FC7D5E /* progressThumb@2x.png in Resources */,
 				5127694E1CD1C77B00FC7D5E /* Assets.xcassets in Resources */,
 				5127694C1CD1C77B00FC7D5E /* Main.storyboard in Resources */,
+				5127695A1CD1C7AC00FC7D5E /* chenyifaer.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				512769491CD1C77B00FC7D5E /* ViewController.m in Sources */,
+				512769661CD1C8DA00FC7D5E /* MainScreenMoviePlayerViewController.m in Sources */,
 				512769461CD1C77B00FC7D5E /* AppDelegate.m in Sources */,
+				5127695E1CD1C80300FC7D5E /* NavRootViewController.m in Sources */,
+				512769631CD1C87100FC7D5E /* MoviePlayerViewController.m in Sources */,
 				512769431CD1C77B00FC7D5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CCNMoviePlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,7 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CCNMoviePlayerViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CCN.CCNMoviePlayerViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
